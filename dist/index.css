@@ -1,0 +1,18 @@
+.banner {
+  margin-top: 56px;
+  /* opacity: 30%; */
+}
+.primary {
+  /* opacity: 30%; */
+}
+.navbar {
+  background-color: rgba(0,0,0,0.3);
+  /* opacity: 30%; */
+}
+.fa-pepper-hot {
+  opacity: 100%;
+  color: red;
+}
+
+.main {
+}
