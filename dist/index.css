@@ -1,5 +1,18 @@
+@font-face {
+  font-family: "chi-town-regular";
+  src: url("../assets/fonts/chi-town.regular.otf");
+}
+body {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 18px;
+}
+.brand {
+  font-family: 'chi-town-regular';
+  color: white;
+  font-size: 30px;
+}
 .banner {
-  margin-top: 56px;
+  margin-top: 69px;
   /* opacity: 30%; */
 }
 .primary {
@@ -11,6 +24,12 @@
 }
 .fa-pepper-hot {
   opacity: 100%;
+  color: red;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
   color: red;
 }
 
