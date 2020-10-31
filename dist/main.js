@@ -1,1 +1,1 @@
-console.log("hello from index.js!!");
+(()=>{"use strict";console.log("hello from index.js!!"),console.log("hello from navbar.js"),function(){let e=document.getElementById("test-content"),t=document.createElement("nav");t.classList="navbar navbar-expand fixed-top primary";let a=document.createElement("a");a.classList="navbar-brand",a.href="#";let n=document.createElement("span");n.classList="fas fa-pepper-hot fa-2x",a.appendChild(n),t.appendChild(a),e.appendChild(t)}()})();
