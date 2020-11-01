@@ -1,2 +1,3 @@
-import { navBar } from "./navbar.js";
-navBar();
+import { pageLoad } from "./pageload";
+
+pageLoad();
