@@ -1,4 +1,2 @@
-import { testfunc, navBar } from "./navbar.js";
-console.log('hello from index.js!!');
-testfunc();
+import { navBar } from "./navbar.js";
 navBar();
