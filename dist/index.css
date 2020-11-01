@@ -18,20 +18,24 @@ body {
 .primary {
   /* opacity: 30%; */
 }
-.navbar {
+/* .navbar {
   background-color: rgba(0,0,0,0.3);
-  /* opacity: 30%; */
-}
+} */
 .fa-pepper-hot {
   opacity: 100%;
   color: red;
 }
 .nav-link {
-  color: white;
-}
-.nav-link:hover {
   color: red;
 }
-
-.main {
+.nav-link:hover {
+  color: red !important;
+}
+.footer-icon {
+  display: inline;
+}
+.footer-icon:hover {
+  border: 4px solid red;
+  border-radius: 8px;
+  box-shadow: 5px 10px 10px red;
 }
