@@ -1,3 +1,5 @@
+import { tab } from './components/tab';
+
 function addListeners() {
     let menu = document.getElementById('menu');
     let home = document.getElementById('home');
@@ -8,6 +10,10 @@ function addListeners() {
     tabs.forEach(function(item) {
         console.log(item);
         // add listeners to item to call tab() method with its own function
+        item.addEventListener('click', function(e) {
+            console.log(item.id);
+            tab(item.id); // will call the tab function with 'home' 'menu' or 'contact'
+        })
     });
 }
 

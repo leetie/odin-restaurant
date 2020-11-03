@@ -7,11 +7,21 @@ function clearTab() {
   tab.innerHTML = '';
 }
 function tab(content=home) {
-  // content is html content, default will be home tab with no args   
-  //clear values on page and append content
-  // on page load render home tab with home stuff, add listeners to tab buttons
-  // onclick, render contents of clicked tab through this funciton... clear first, run function of desired tab
-  content();
+  switch(content) {
+    case 'home':
+      clearTab();
+      home();
+      break;
+    case 'menu':
+      clearTab();
+      menu();
+      break;
+    case 'contact':
+      clearTab();
+      contact();
+      break;
+  }
+  //content();
 }
 
 
