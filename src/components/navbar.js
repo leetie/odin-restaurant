@@ -44,12 +44,14 @@ function navBar() {
   linkOne.href = '#';
   linkOne.classList = 'nav-link'
   linkOne.innerHTML = 'Home';
+  linkOne.id = 'home';
   linkOneLi.appendChild(linkOne);
   unorderList.appendChild(linkOneLi);
 
   let linkTwoLi = document.createElement('li');
   linkTwoLi.classList = 'nav-item';
   let linkTwo = document.createElement('a');
+  linkTwo.id = 'menu';
   linkTwo.href = '#';
   linkTwo.classList = 'nav-link';
   linkTwo.innerHTML = 'Menu';
@@ -59,6 +61,7 @@ function navBar() {
   let linkThreeLi = document.createElement('li');
   linkThreeLi.classList = 'nav-item';
   let linkThree = document.createElement('a');
+  linkThree.id = 'contact';
   linkThree.href = '#';
   linkThree.classList = 'nav-link';
   linkThree.innerHTML = 'Contact';
