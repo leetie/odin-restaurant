@@ -28,7 +28,7 @@ function navBar() {
 
   let text = document.createElement('span');
   text.classList = 'brand';
-  text.innerHTML = 'Legacy Cuisine';
+  text.innerHTML = 'Dragonstar';
 
   let collapsible = document.createElement('div');
   collapsible.classList = 'collapse navbar-collapse';
