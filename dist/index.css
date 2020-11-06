@@ -3,11 +3,12 @@
   src: url("../assets/fonts/chi-town.regular.otf");
 }
 body {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 18px;
+  padding-top: 70px;
 }
 .brand {
-  font-family: 'chi-town-regular';
+  font-family: "chi-town-regular";
   color: white;
   font-size: 30px;
 }
