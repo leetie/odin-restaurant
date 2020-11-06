@@ -32,6 +32,10 @@ body {
 .nav-link:hover {
   color: red !important;
 }
+.dragon-right {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 .footer-icon {
   display: inline;
 }
