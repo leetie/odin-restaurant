@@ -36,6 +36,9 @@ body {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+.notice {
+  background-color: rgb(192, 46, 46);
+}
 .footer-icon {
   display: inline;
 }
