@@ -1,6 +1,6 @@
 function navBar() {
   //root
-  let target = document.getElementById('content');
+  let target = document.getElementById('navbar');
   let nav = document.createElement('nav');
   nav.classList = 'navbar navbar-expand-md fixed-top navbar-dark bg-dark';
 
