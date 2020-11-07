@@ -8,10 +8,8 @@ function addListeners() {
     let tabs = [menu, home, contact];
     console.log(tabs);
     tabs.forEach(function(item) {
-        console.log(item);
         // add listeners to item to call tab() method with its own function
         item.addEventListener('click', function(e) {
-            console.log(item.id);
             tab(item.id); // will call the tab function with 'home' 'menu' or 'contact'
         })
     });
