@@ -24,7 +24,7 @@ function menu() {
           <option value="chefsSpecial">Chef's Special</option>
         </select>
     </div>
-    <div id="menu"></div>
+    <div id="menu" class="container"></div>
   `
   addSelectionListeners();
 }

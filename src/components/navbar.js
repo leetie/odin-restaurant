@@ -51,7 +51,7 @@ function navBar() {
   let linkTwoLi = document.createElement('li');
   linkTwoLi.classList = 'nav-item';
   let linkTwo = document.createElement('a');
-  linkTwo.id = 'menu';
+  linkTwo.id = 'menu-link';
   linkTwo.href = '#';
   linkTwo.classList = 'nav-link';
   linkTwo.innerHTML = 'Menu';

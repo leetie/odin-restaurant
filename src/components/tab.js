@@ -12,7 +12,7 @@ function tab(content=home) {
       clearTab();
       home();
       break;
-    case 'menu':
+    case 'menu-link':
       clearTab();
       menu();
       break;
