@@ -7,8 +7,7 @@ function clearTab() {
   tab.innerHTML = '';
 }
 
-//temp for testing menu
-function tab(content="menu-link") {
+function tab(content='home') {
   switch(content) {
     case 'home':
       clearTab();
@@ -23,7 +22,6 @@ function tab(content="menu-link") {
       contact();
       break;
   }
-  //content();
 }
 
 
