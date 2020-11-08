@@ -6,7 +6,9 @@ function clearTab() {
   let tab = document.getElementById('tab');
   tab.innerHTML = '';
 }
-function tab(content=home) {
+
+//temp for testing menu
+function tab(content="menu-link") {
   switch(content) {
     case 'home':
       clearTab();
