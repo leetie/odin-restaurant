@@ -1,11 +1,8 @@
-import { el, mount } from 'redom';
-
 function contact() {
-  // contact stuff
+  // contact form! 
+  // show location on google map, and add links for yelp maybe?
+  // email contact form
   console.log('rendering contact elements');
-  const hello = el("h1", "Hello RE:DOM!");
-  mount(document.body, hello);
-
 }
 
 export { contact }
