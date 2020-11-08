@@ -146,7 +146,7 @@ function lunchAndDinnerSpecials() {
 
     <h4>Dinner Combinations</h4>
     <h5>(Served all day)</h5>
-    <table class="table table-dark table-striped>
+    <table class="table table-dark table-striped">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -155,11 +155,58 @@ function lunchAndDinnerSpecials() {
       </thead>
       <tbody>
         <tr>
-          <th scope="row">L2.</th>
-          <td>Chicken or Shrimp Chow Mein</td>
+          <th scope="row">D1.</th>
+          <td>Egg Roll, Chicken Fingers, Chicken Chow Mein, Pork Fried Rice</td>
           <td></td>
-          <td style="text-align:right">7.20</td>
+          <td style="text-align:right">9.45</td>
         </tr>
+        <tr>
+          <th scope="row">D2.</th>
+          <td>Beef Terikayi, Boneless Spare Ribs, Chicken Wings, Pork Fried Rice</td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+        <tr>
+          <th scope="row">D3.</th>
+          <td>Beef Teriyaki, Crab Rangoon, Chicken Fingers, Pork Fried Rice</td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+        <tr>
+          <th scope="row">D4.</th>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken or Beef Szechuan Style, Beef Teriyaki, Crab Rangoon, Pork Fried Rice <a href="#">(Contains Peanuts)</a></td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+        <tr>
+          <th scope="row">D5.</th>
+          <td>Crab Rangoon, Chicken Wings, Beef or Chicken Broccoli, Pork Fried Rice</td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+        <tr>
+          <th scope="row">D6.</th>
+          <td>Moo Goo Gai Pan, Boneless Spare Ribs, Chicken Wings, Pork Fried Rice</td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+        <tr>
+          <th scope="row">D7.</th>
+          <td>Chicken and Shrimp, Chicken Fingers, Beef Teriyaki, Pork Fried Rice</td>
+          <td></td>
+          <td style="text-align:right">9.45</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h4>Combination Platter</h4>
+    <h5>(Served all day)</h5>
+    <table class="table table-dark table-striped>
+      <thead>
+
+      </thead>
+      <tbody>
+      
       </tbody>
     </table>
   `
