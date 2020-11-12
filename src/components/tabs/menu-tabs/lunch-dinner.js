@@ -47,7 +47,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">L6.</th>
-          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken Szechuan Style <a href="" data-toggle="modal" data-target="#exampleModal">(Contains Peanuts)</a></td>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken Szechuan Style <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
           <td></td>
           <td style="text-align:right"></td>
         </tr>
@@ -89,7 +89,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">L13.</th>
-          <td><span class="fas fa-pepper-hot">&nbsp</span> Shrimp Szechuan Style <a href="#">(Contains Peanuts)</a></td>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Shrimp Szechuan Style <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
           <td></td>
           <td style="text-align:right">7.70</td>
         </tr>
@@ -174,7 +174,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">D4.</th>
-          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken or Beef Szechuan Style, Beef Teriyaki, Crab Rangoon, Pork Fried Rice <a href="#">(Contains Peanuts)</a></td>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken or Beef Szechuan Style, Beef Teriyaki, Crab Rangoon, Pork Fried Rice <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
           <td></td>
           <td style="text-align:right">9.45</td>
         </tr>
@@ -241,7 +241,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">C6.</th>
-          <td>Chicken & Cashew Nuts <a href="#">(Contains Nuts)</a></td>
+          <td>Chicken & Cashew Nuts <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Nuts)</a></td>
           <td></td>
           <td style="text-align:right">8.80</td>
         </tr>
@@ -265,7 +265,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">C10.</th>
-          <td><span class="fas fa-pepper-hot">&nbsp</span> Shredded Beef Szechuan Style <a href="#">(Contains Peanuts)</a></td>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Shredded Beef Szechuan Style <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
           <td></td>
           <td style="text-align:right">8.80</td>
         </tr>

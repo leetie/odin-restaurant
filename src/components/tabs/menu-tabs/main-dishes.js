@@ -63,7 +63,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">58.<th>
-        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Pork <a href="#">(Contains Peanuts)</a></td>
+        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Pork <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
         <td style="text-align:right"></td>
         <td style="text-align:right">10.70</td>
       </tr>
@@ -106,7 +106,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">63.<th>
-        <td>Chicken & Cashew Nuts <a href="#">(Contains Nuts)</a></td>
+        <td>Chicken & Cashew Nuts <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Nuts)</a></td>
         <td style="text-align:right">6.45</td>
         <td style="text-align:right">11.20</td>
       </tr>
@@ -154,7 +154,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">71.<th>
-        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Chicken <a href="#">(Contains Peanuts)</a></td>
+        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Chicken <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
         <td style="text-align:right"></td>
         <td style="text-align:right">11.20</td>
       </tr>
@@ -197,7 +197,7 @@ function mainDishes() {
     <tbody>
       <tr>
         <th scope="row">76.<th>
-        <td>Baby Shrimp & Cashew Nuts <a href="#">(Contains Nuts)</a></td>
+        <td>Baby Shrimp & Cashew Nuts <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Nuts)</a></td>
         <td style="text-align:right">7.25</td>
         <td style="text-align:right">13.30</td>
       </tr>
@@ -227,7 +227,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">81.<th>
-        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Shrimp <a href="#">(Contains Peanuts)</a></td>
+        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Shrimp <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
         <td style="text-align:right"></td>
         <td style="text-align:right">13.30</td>
       </tr>
@@ -318,7 +318,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">94.<th>
-        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Shredded Beef <a href="#">(Contains Peanuts)</a></td>
+        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Shredded Beef <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
         <td style="text-align:right">6.85</td>
         <td style="text-align:right">12.10</td>
       </tr>
@@ -330,7 +330,7 @@ function mainDishes() {
       </tr>
       <tr>
         <th scope="row">96.<th>
-        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Beef <a href="#">(Contains Peanuts)</a></td>
+        <td><span class="fas fa-pepper-hot">&nbsp</span> Szechuan Style Beef <a href="" data-toggle="modal" data-target="#allergyModal">(Contains Peanuts)</a></td>
         <td style="text-align:right"></td>
         <td style="text-align:right">12.10</td>
       </tr>
