@@ -47,7 +47,7 @@ function lunchAndDinnerSpecials() {
         </tr>
         <tr>
           <th scope="row">L6.</th>
-          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken Szechuan Style <a href="#">(Contains Peanuts)</a></td>
+          <td><span class="fas fa-pepper-hot">&nbsp</span> Chicken Szechuan Style <a href="" data-toggle="modal" data-target="#exampleModal">(Contains Peanuts)</a></td>
           <td></td>
           <td style="text-align:right"></td>
         </tr>
