@@ -2,14 +2,6 @@ import { addSelectionListeners } from './menu-tabs/add-selection-listeners';
 
 function menu() {
   let tab = document.getElementById('tab');
-  // let picture = document.createElement('img');
-  // picture.src = '../../../assets/images/main.jpg';
-  // picture.classList = 'img img-fluid'
-
-  // let container = document.createElement('div');
-  // container.classList = 'container';
-
-  // tab.appendChild(picture);
   tab.innerHTML = `
     <div class="container text-center"
         <img class="img img-fluid" src="../../../assets/images/main.jpg">
