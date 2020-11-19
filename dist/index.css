@@ -38,6 +38,14 @@ body {
 }
 .notice {
   background-color: rgb(192, 46, 46);
+  padding-top: .7rem;
+}
+.fa-times-circle {
+  margin-bottom: 20px;
+}
+.fa-times-circle:hover {
+  cursor: pointer;
+  color: black;
 }
 .footer-icon {
   display: inline;
