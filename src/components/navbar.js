@@ -6,12 +6,11 @@ function navBar() {
 
   let brand = document.createElement('a');
   brand.classList = 'navbar-brand';
-  brand.href = '#';
 
-  let pepper = document.createElement('span');
-  pepper.classList = 'fas fa-pepper-hot fa-2x';
-
-  brand.appendChild(pepper);
+  let bowl = document.createElement('img');
+  bowl.src = '../assets/images/bowl.png';
+  bowl.style = 'width: 40px; height: 40px;'
+  brand.appendChild(bowl);
 
   let toggler = document.createElement('button');
   toggler.classList = 'navbar-toggler';
@@ -52,7 +51,7 @@ function navBar() {
   linkTwoLi.classList = 'nav-item';
   let linkTwo = document.createElement('a');
   linkTwo.id = 'menu-link';
-  linkTwo.href = '#';
+  linkTwo.href = '#menu-select';
   linkTwo.classList = 'nav-link';
   linkTwo.innerHTML = 'Menu';
   linkTwoLi.appendChild(linkTwo);
