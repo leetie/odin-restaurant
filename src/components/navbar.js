@@ -8,7 +8,7 @@ function navBar() {
   brand.classList = 'navbar-brand';
 
   let bowl = document.createElement('img');
-  bowl.src = '../assets/images/bowl.png';
+  bowl.src = './images/bowl.png';
   bowl.style = 'width: 40px; height: 40px;'
   brand.appendChild(bowl);
 
