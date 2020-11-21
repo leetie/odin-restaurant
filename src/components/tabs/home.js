@@ -21,6 +21,7 @@ function home() {
           <a
             class="btn btn-primary btn-lg"
             href="https://www.nh.gov/covid19/resources-guidance/businesses.htm"
+            target="_blank"
             role="button"
             >Learn more</a
           >

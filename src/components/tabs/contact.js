@@ -53,16 +53,17 @@ function contact() {
   `
 
   let map = document.getElementById('mapLink');
+  map.setAttribute('target', '_blank');
   // check for platform and conditionally generate either google or apple link
   switch (checkPlatform()) {
     case 'iOS':
-      map.href = 'http://maps.apple.com/?daddr=1600+Amphitheatre+Pkwy,+Mountain+View+CA';
+      map.href = 'http://maps.apple.com/?daddr=75+South+Main+Street,+Concord+NH';
       break;
     case 'Linux':
-      map.href = 'https://whispering-everglades-16718.herokuapp.com/'
+      map.href = 'https://duckduckgo.com/?q=how+to+get+off+the+computer+and+leave+your+home&t=newext&atb=v244-4&ia=web'
       break;
     default:
-      map.href = 'http://maps.apple.com/?daddr=1600+Amphitheatre+Pkwy,+Mountain+View+CA';
+      map.href = 'http://maps.apple.com/?daddr=75+South+Main+Street,+Concord+NH';
       break;
   }
 }
