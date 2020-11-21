@@ -11,21 +11,21 @@ function contact() {
     <div class="carousel-item active">
       <img
         class="d-block w-100"
-        src="../assets/images/chef-1.jpg"
+        src="./images/chef-1.jpg"
         alt="chef"
       />
     </div>
     <div class="carousel-item">
       <img
         class="d-block w-100"
-        src="../assets/images/chef-3.jpg"
+        src="./images/chef-3.jpg"
         alt="chef"
       />
     </div>
     <div class="carousel-item">
       <img
         class="d-block w-100"
-        src="../assets/images/chef-4.jpg"
+        src="./images/chef-4.jpg"
         alt="chef"
       />
     </div>
@@ -34,7 +34,7 @@ function contact() {
   let tab = document.getElementById('tab');
   tab.innerHTML = `
     <div class="container text-center">
-      <h2>We Would love to hear from you!</h2>
+      <h2>We would love to hear from you!</h2>
       <h4>Please consider leaving us a review on <a href="https://www.google.com/maps/place/Dragon+Star/@43.2003959,-71.534841,17z/data=!3m1!5s0x89e26a8e96aea455:0x22dd89a68dd2cbda!4m7!3m6!1s0x89e26a8e8d383ae1:0xf9b806b603a003e1!8m2!3d43.200392!4d-71.5326577!9m1!1b1" target="_blank">Google!</a></h4>
 
       <div class="row">

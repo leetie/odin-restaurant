@@ -41,41 +41,41 @@ function home() {
   <div class="carousel-item active">
   <img
     class="d-block w-100"
-    src="../assets/images/main.jpg"
+    src="./images/main.jpg"
     alt="dishes"
   />
   </div>
   <div class="carousel-item">
   <img
     class="d-block w-100"
-    src="../assets/images/noodles.jpg"
+    src="./images/noodles.jpg"
     alt="noodles"
   />
   </div>
   <div class="carousel-item">
   <img
     class="d-block w-100"
-    src="../assets/images/orange-chicken.jpg"
+    src="./images/orange-chicken.jpg"
     alt="orange chicken"
   />
   </div>
   <div class="carousel-item">
   <img
-    src="../assets/images/ribs.jpg"
+    src="./images/ribs.jpg"
     alt="ribs"
     class="d-block w-100"
   />
   </div>
   <div class="carousel-item">
   <img
-    src="../assets/images/rice.jpg"
+    src="./images/rice.jpg"
     alt="rice"
     class="d-block w-100"
   />
   </div>
   <div class="carousel-item">
   <img
-    src="../assets/images/steak.jpg"
+    src="./images/steak.jpg"
     alt="steak"
     class="d-block w-100"
   />

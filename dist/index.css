@@ -1,6 +1,6 @@
 @font-face {
   font-family: "chi-town-regular";
-  src: url("../assets/fonts/chi-town.regular.otf");
+  src: url("./fonts/chi-town.regular.otf");
 }
 body {
   font-family: "Crete Round", sans-serif;
@@ -38,7 +38,7 @@ body {
 }
 .notice {
   background-color: rgb(192, 46, 46);
-  padding-top: .7rem;
+  padding-top: 0.7rem;
 }
 .fa-times-circle {
   margin-bottom: 20px;
