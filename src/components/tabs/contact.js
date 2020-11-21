@@ -43,7 +43,7 @@ function contact() {
             <img
             id="map"
             class="img img-fluid"
-            src="https://maps.googleapis.com/maps/api/staticmap?center=Dragon+Star+Concord,NH&size=600x300&markers=color:red|Dragon+Star+Concord+NH&key=MY_KEY"
+            src="https://maps.googleapis.com/maps/api/staticmap?center=Dragon+Star+Concord,NH&size=600x300&markers=color:red|Dragon+Star+Concord+NH&key=${process.env.MAP_KEY}"
             alt="map"
             />
         </a>
