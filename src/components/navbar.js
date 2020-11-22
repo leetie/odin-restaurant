@@ -40,7 +40,9 @@ function navBar() {
   let linkOneLi = document.createElement('li');
   linkOneLi.classList = 'nav-item';
   let linkOne = document.createElement('a');
-  linkOne.href = '#';
+  linkOne.setAttribute('data-toggle', 'collapse');
+  linkOne.setAttribute('data-target', '#navbarNav');
+  linkOne.href = '';
   linkOne.classList = 'nav-link'
   linkOne.innerHTML = 'Home';
   linkOne.id = 'home';
@@ -50,6 +52,8 @@ function navBar() {
   let linkTwoLi = document.createElement('li');
   linkTwoLi.classList = 'nav-item';
   let linkTwo = document.createElement('a');
+  linkTwo.setAttribute('data-toggle', 'collapse');
+  linkTwo.setAttribute('data-target', '#navbarNav');
   linkTwo.id = 'menu-link';
   linkTwo.href = '#menu-select';
   linkTwo.classList = 'nav-link';
@@ -60,8 +64,10 @@ function navBar() {
   let linkThreeLi = document.createElement('li');
   linkThreeLi.classList = 'nav-item';
   let linkThree = document.createElement('a');
+  linkThree.setAttribute('data-toggle', 'collapse');
+  linkThree.setAttribute('data-target', '#navbarNav');
   linkThree.id = 'contact';
-  linkThree.href = '#';
+  linkThree.href = '';
   linkThree.classList = 'nav-link';
   linkThree.innerHTML = 'Contact';
   linkThreeLi.appendChild(linkThree);
